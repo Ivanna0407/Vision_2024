@@ -42,7 +42,7 @@ public class Visioncmd extends Command {
     }
 
     double foward = (ErrorY)*0.035;
-    double turn = (ErrorX)*(0.01/(ta+3)) + (ErrorXI*0.009);
+    double turn = (ErrorX)*(0.01/(ta+3)) + (ErrorXI*0.008);
 
     double RightSpeed = foward - turn;
     double LeftSpeed = foward + turn;
